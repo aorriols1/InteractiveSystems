@@ -1,0 +1,17 @@
+Some of the modifications and new functionalities added to my project are listed in this file, which where done using the part2 of the exercise.
+These additions were made for polishing the game and the overall gaming experience. 
+
+First, I added some visual effects by creating a small heart model that flies up from any saved sheep. 
+
+Then, I also added some sound effects by playing some audio clips.
+These audios are associated with the shooting of the Hay Machine, hitting a sheep or played when a sheep is dropped.
+
+Moreover, in order to keep track of the score of the game, that is, knowing how many sheeps we saved and how many we dropped, I made some modifications.
+This modifications imply manipulating the Gamne UI (User Interface) as well as using the triggers to count the game score.
+However, I was not able to keep track of the dropped sheeps and instead of counting one dropped sheep as 1, my game counts it as 2.
+I have searched for this problem and maybe I am calling the Drop() method more than once in some script, but I could not locate it.
+
+Then, I modified the visualization of the title screen buttons, that make more clear for the player which button is selected.
+
+Finally, I implemented the option of changing the color of the hay machine from the title screen by clicking on the hay machine located in the Title.
+This is related with the ability of passing data between two scenes as the Title and the Game.
